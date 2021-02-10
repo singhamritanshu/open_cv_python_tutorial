@@ -24,7 +24,7 @@ canny = cv.Canny(gray,125,175) # We use blur insted gray to reduce the number of
 
 # Insted of using canny to find contours we can also use threshold.
 # Threshold basically takes the image and binarize it 
-ret, thresh = cv.threshold(gray,125,255, cv.THRESH_BINARY) # Whats it does is that all the pixel values which are less than 125 (threshold value) is set to 0 which is black where as all the pixel values greater than 125(threshold value) is set to 255 white.
+ret, thresh = cv.threshold(gray,125,255, cv.THRESH_BINARY) # What it does is that all the pixel values which are less than 125 (threshold value) is set to 0 which is black where as all the pixel values greater than 125(threshold value) is set to 255 white.
 
 countours_1, hierarchies_1 = cv.findContours(canny,cv.RETR_LIST,cv.CHAIN_APPROX_NONE) # Finding contours using canny 
 countours, hierarchies = cv.findContours(thresh,cv.RETR_LIST,cv.CHAIN_APPROX_NONE)# Finding contours using threshold
