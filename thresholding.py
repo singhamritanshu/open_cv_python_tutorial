@@ -1,5 +1,4 @@
 import cv2 as cv
-import numpy as np 
 
 img = cv.imread("test_images/boston.png")
 cv.imshow("Original", img)
@@ -22,7 +21,7 @@ cv.imshow("Adaptive threshol mean",adaptive_thresh_mean)
 adaptive_thresh_inv_mean = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_MEAN_C,cv.THRESH_BINARY_INV,13,7) 
 cv.imshow("Adaptive thresh_inv mean",adaptive_thresh_inv_mean)
 
-#Adaptive thresholding using gaussian meathod
+#Adaptive thresholding using gaussian meathod: Gaussian just added the weight around thoes pixel value and computed the mean across those pixels.
 adaptive_thresh_gau = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_GAUSSIAN_C,cv.THRESH_BINARY,13,7)
 cv.imshow("Adaptive Gaussian ",adaptive_thresh_gau)
 adaptive_thresh_gau_inv = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_GAUSSIAN_C,cv.THRESH_BINARY_INV,13,7)
