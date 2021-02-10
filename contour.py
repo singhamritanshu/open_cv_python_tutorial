@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np 
 # Contours: Contours are basically the boundries of objects, the line or the curve that joins the objects.
 
-img = cv.imread("test_images/kohli_1.jpg")
+img = cv.imread("test_images/boston.png")
 blank = np.zeros(img.shape, dtype= 'uint8') # Creating a blank image of the same size to draw contours
 
 
@@ -42,5 +42,5 @@ blank[:]=0,0,0
 cv.drawContours(blank,countours_1,-1,(255,255,255),1)
 cv.imshow("Canny Contour", blank)
 
-cv.imshow("Batsman",img)
+cv.imshow("Original",img)
 cv.waitKey(0)

@@ -17,7 +17,7 @@ cv.imshow("Simple Inverse Thresholded",thresh_inv)
 # Adaptive thresholding: In this we let the computer find and decide the optimal thresholding value for us.
 # We are using mean in type of thresholding to calculate the optimal threshlod value.
 # 7 is the kernel size used by the opencv to calculat ethe mean and the 3 is the c value which will subtracted from the mean to fine tune our optimal threshold value 
-adaptive_thresh = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_MEAN_C,cv.THRESH_BINARY,7,3) 
+adaptive_thresh = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_MEAN_C,cv.THRESH_BINARY,13,7) 
 cv.imshow("Adaptive threshol",adaptive_thresh)
 adaptive_thresh_inv = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_MEAN_C,cv.THRESH_BINARY_INV,13,7) 
 cv.imshow("Adaptive thresh_inv",adaptive_thresh_inv)
