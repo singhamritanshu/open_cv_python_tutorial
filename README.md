@@ -26,7 +26,7 @@ Install OpenCV:
     
     pip install opencv-contrib-python
     
-Install numpy with conda or numpy
+Install numpy with conda or pip:
 
     conda install numpy
             or
