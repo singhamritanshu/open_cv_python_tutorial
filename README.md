@@ -21,13 +21,15 @@ When conda asks you to proceed, type y:
 Activate the environment:
     
     conda activate myenv
-    
-Install OpenCV:
-    
-    pip install opencv-contrib-python
-    
+
 Install numpy with conda or pip:
 
     conda install numpy
             or
     pip install numpy
+    
+Install OpenCV:
+    
+    pip install opencv-contrib-python
+    
+
