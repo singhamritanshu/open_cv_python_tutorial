@@ -1,4 +1,3 @@
-<img width="1680" alt="Screenshot 2021-03-04 at 10 07 01 PM" src="https://user-images.githubusercontent.com/64220796/109997212-fa3d6b80-7d35-11eb-9871-8c4f1b2ca6e1.png">
 # open_cv_tutorial_python
 
 Learn all the fundamentals to get started with OpenCV.
@@ -33,4 +32,6 @@ Install OpenCV:
     
     pip install opencv-contrib-python
     
+Few Outputs
+<img width="1680" alt="Screenshot 2021-03-04 at 10 07 01 PM" src="https://user-images.githubusercontent.com/64220796/109997212-fa3d6b80-7d35-11eb-9871-8c4f1b2ca6e1.png">
 
