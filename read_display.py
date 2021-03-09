@@ -3,14 +3,14 @@ from resize_rescale import *
 
 # Reading and displaying an image 
 
-img = cv.imread('test_images/kohli_1.jpg')
-cv.imshow("Best batsman",img)
-img2=rescale_frame(img) # Resizing the image
-cv.imshow("Batsman",img2)
+#img = cv.imread('test_images/kohli_1.jpg')
+#cv.imshow("Best batsman",img)
+#img2=rescale_frame(img) # Resizing the image
+#cv.imshow("Batsman",img2)
    
 # Reading and displaying the video 
 
-capture = cv.VideoCapture('test_videos/1.mp4')
+capture = cv.VideoCapture(0)
 while True:
     isTrue, frame = capture.read()
     frame_resized = rescale_frame(frame) # Resizing the video 
