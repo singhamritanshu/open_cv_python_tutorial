@@ -24,8 +24,6 @@ Activate the environment:
 
 Install numpy with conda or pip:
 
-    conda install numpy
-            or
     pip install numpy
     
 Install OpenCV:
