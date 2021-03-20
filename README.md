@@ -22,7 +22,7 @@ Activate the environment:
     
     conda activate myenv
 
-Install numpy with conda or pip:
+Install numpy with pip:
 
     pip install numpy
     
