@@ -6,7 +6,7 @@ Install Anaconda :
     
     https://www.anaconda.com/products/individual
 
-Set up virtual environment for Python using Anaconda:
+Set up virtual environment in Python using Anaconda:
 
 To create an environment:
     
