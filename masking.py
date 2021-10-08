@@ -15,11 +15,4 @@ cv.imshow("Mask",mask)
 # Putting mask on the input image
 masked = cv.bitwise_and(img,img,mask=mask)
 cv.imshow("Masked",masked)
-
-
-
-
-
-
-
 cv.waitKey(0)
